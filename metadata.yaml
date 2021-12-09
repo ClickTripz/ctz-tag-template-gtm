@@ -1,6 +1,8 @@
 homepage: "https://www.clicktripz.com"
 documentation: "https://support.clicktripz.com"
 versions:
+  - sha: c87dd13c660f5ff606b304554d7df8024cf882b5
+    changeNotes: Encodes URI parameters
   - sha: 498a38d3e44b95471439881813eb3ce2e6a0ea37
     changeNotes: Update the description
   - sha: f491c694bde7762bd64ba2aeb3af20403dbe1513
