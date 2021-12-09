@@ -42,7 +42,7 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
-const url = "https://static.clicktripz.com/tag.js?gwi=" + data.gwi;
+const url = "https://static.clicktripz.com/tag.js?gwi=" + encodeURIComponent(data.gwi);
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure);
 return url;
 
