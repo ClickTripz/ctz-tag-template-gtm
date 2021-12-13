@@ -1,6 +1,8 @@
 homepage: "https://www.clicktripz.com"
 documentation: "https://support.clicktripz.com"
 versions:
+  - sha: 6c58f0af05cf04f6ec13cec6fddbbbae91e63a52
+    changeNotes: Update the description
   - sha: 560edeb0f0e0cb51a72d68d6ce3d2e5f49a07b39
     changeNotes: Update the description
   - sha: c87dd13c660f5ff606b304554d7df8024cf882b5
